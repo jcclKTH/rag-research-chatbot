@@ -18,3 +18,16 @@ Orchestration: LangChain.
 Vector Database: FAISS / ChromaDB.
 
 Models: OpenAI GPT-4 or local models via Ollama.
+
+Project Structure
+Plaintext
+├── data/               # PDF research papers
+├── src/                # Python source code
+├── requirements.txt    # Project dependencies
+└── README.md           # Documentation
+⚙️ Quick Start
+Clone the repo: git clone https://github.com/your-user/rag-research-chatbot.git
+
+Install dependencies: pip install -r requirements.txt
+
+Run the app: python app.py
